@@ -13,7 +13,7 @@ $env:JAVA_HOME = Join-Path $kit 'jdk-17.0.21+9'
 $env:Path = "$kit\flutter\bin;$env:ANDROID_HOME\platform-tools;$env:Path"
 ```
 
-Start an Android emulator or connect a phone with USB debugging enabled. Run `flutter devices`, then `flutter run -d DEVICE_ID` using the listed Android ID. To run the automated checks, use `flutter analyze` and `flutter test`.
+To start the proof emulator, run `flutter emulators --launch Quiet_News_Pixel`. You can also connect an Android phone with USB debugging enabled. Run `flutter devices`, then `flutter run -d DEVICE_ID` using the listed Android ID. To run the automated checks, use `flutter analyze` and `flutter test`.
 
 ## Proof check
 
